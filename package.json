@@ -1,0 +1,22 @@
+{
+  "name": "myhttp",
+  "version": "0.0.1",
+  "description": "a Node.js http proxy application based on node-http-proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billginger/http.git"
+  },
+  "author": "Bill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/billginger/http/issues"
+  },
+  "homepage": "https://github.com/billginger/http#readme",
+  "dependencies": {
+    "http-proxy": "^1.16.2"
+  }
+}
