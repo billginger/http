@@ -16,7 +16,7 @@ const hostB = 'nodejs.top';
 http.createServer((req, res) => {
 	if (hostA.indexOf(req.headers.host) >= 0) {
 		proxy.web(req, res, { target: 'http://localhost:3001' });
-	} else if (req.headers.host.indexOf(hostB) >= 0) {
+	} else if (req.headers.host && req.headers.host.indexOf(hostB) >= 0) {
 		res.writeHead(301, { 'Location': 'https://nodejs.top' });
 		res.end();
 	} else {
