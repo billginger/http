@@ -5,6 +5,7 @@ const proxy = httpProxy.createProxyServer({});
 
 const hostA = [
 	'lscha.com', 'www.lscha.com', 'laoshancha.com', 'www.laoshancha.com',
+	'qindaopai.com', 'www.qindaopai.com', 'wgzjy.com', 'www.wgzjy.com',
 	'lzbb.cn', 'www.lzbb.cn', 'ykta.cn', 'www.ykta.cn',
 	'battle.pub', 'www.battle.pub', 'diablo.pub', 'www.diablo.pub',
 	'warcraft.pub', 'www.warcraft.pub', 'starcraft.pub', 'www.starcraft.pub',
